@@ -21,16 +21,16 @@ public class Animal
         kosztUtrzymania = 0;
     }
 
-    Animal (String krolestwo1, String gromada1, String gatunek1, ItemCondition stan1, double cena1, int wiek1,int ilosc1, double kosztUtrzymania1)
+    Animal (String krolestwo, String gromada, String gatunek, ItemCondition stan, double cena, int wiek, int ilosc, double kosztUtrzymania)
     {
-        krolestwo = krolestwo1;
-        gromada = gromada1;
-        gatunek = gatunek1;
-        stan = stan1;
-        cena = cena1;
-        wiek = wiek1;
-        ilosc = ilosc1;
-        kosztUtrzymania = kosztUtrzymania1;
+        krolestwo = krolestwo;
+        gromada = gromada;
+        gatunek = gatunek;
+        stan = stan;
+        cena = cena;
+        wiek = wiek;
+        ilosc = ilosc;
+        kosztUtrzymania = kosztUtrzymania;
     }
 
     //todo compareTo
